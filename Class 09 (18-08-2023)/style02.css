@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(223, 188, 122);
+}
+
+h1 {
+  background-color: aqua;
+  color: black;
+  text-align: center;
+  margin: 10px;
+  padding: 5px;
+}
+
+@media only screen and (max-width: 480px) {
+  body {
+    background-color: red !important ;
+  }
+
+  p {
+    width: 70% !important;
+    text-align: center !important;
+    margin-left: 50px !important;
+    color: white !important;
+    border: 5px solid white !important;
+    border-radius: 5px !important;
+    padding: 5px !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    background-color: green;
+  }
+
+  p {
+    width: 70%;
+    text-align: center;
+    margin-left: 50px;
+    color: white;
+    border: 5px solid white;
+    border-radius: 5px;
+    padding: 5px;
+  }
+}

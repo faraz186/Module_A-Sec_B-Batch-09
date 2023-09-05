@@ -1,0 +1,47 @@
+.main {
+  display: flex;
+  /* flex-direction: column-reverse; */
+  /* justify-content: space-evenly; */
+  height: 80vh;
+  gap: 50px;
+  /* flex-flow: row wrap;
+  align-items: stretch; */
+  background-color: aqua;
+  /* flex-wrap: wrap-reverse; */
+}
+
+.divone {
+  background-color: red;
+  color: white;
+  width: 300px;
+  order: 3;
+  height: 200px;
+  border-radius: 5px;
+  padding: 15px;
+  /* flex: 2; */
+  font-size: 40px;
+}
+
+.divtwo {
+  background-color: blue;
+  color: white;
+  width: 300px;
+  height: 200px;
+  /* flex: 1; */
+  order: 2;
+  border-radius: 5px;
+  padding: 15px;
+  font-size: 40px;
+}
+
+.divthree {
+  background-color: orange;
+  color: white;
+  width: 300px;
+  /* flex: 3; */
+  height: 200px;
+  border-radius: 5px;
+  /* order: 1; */
+  padding: 15px;
+  font-size: 40px;
+}

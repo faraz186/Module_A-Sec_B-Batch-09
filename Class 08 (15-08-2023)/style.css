@@ -1,0 +1,128 @@
+@import url("style02.css");
+/* ul {
+  list-style: inside upper-roman;
+}
+
+li {
+  background-color: orange;
+} */
+
+table {
+  /* border: 2px solid black; */
+  width: 600px;
+  empty-cells: hide;
+  /* border-collapse: collapse; */
+  border-spacing: 5px 10px;
+}
+
+th,
+td {
+  border: 1px solid black;
+  padding: 10px;
+  margin: 5px;
+  background-color: aqua;
+  font-size: 2em;
+}
+
+td:hover {
+  background-color: grey;
+}
+
+/* th:hover {
+  background-color: grey;
+} */
+
+/* form { */
+/* border: 2px solid red; */
+/* width: 600px;
+  margin: auto;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+input {
+  padding: 8px;
+  margin: 5px;
+  font-size: 19px;
+}
+
+button {
+  padding: 8px;
+  margin: 5px;
+  border: none;
+  border-radius: 10px;
+  background-color: royalblue;
+  color: white;
+  cursor: crosshair;
+}
+
+input.email {
+  background-image: url("https://img.freepik.com/free-icon/email_318-859700.jpg?w=2000");
+  background-size: 35px;
+  background-repeat: no-repeat;
+  background-position: 5px;
+  padding: 5px 10px 5px 45px;
+}
+
+input.pass {
+  background-image: url("https://cdn1.iconfinder.com/data/icons/ios-11-glyphs/30/password-512.png");
+  background-size: 35px;
+  background-repeat: no-repeat;
+  background-position: 5px;
+  padding: 5px 10px 5px 45px;
+}
+
+fieldset {
+  border-radius: 10px;
+  border-color: red;
+  box-shadow: 10px 5px 10px red;
+}
+
+legend {
+  background-color: bisque;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+label {
+  display: inline-block;
+  width: 100px;
+  text-align: right;
+} */
+
+body {
+  background-color: lightblue;
+}
+.A {
+  background-color: red;
+  width: 380px;
+  float: left;
+}
+
+.B {
+  background-color: blue;
+  width: 200px;
+  float: left;
+}
+
+p {
+  clear: both;
+}
+
+.paraone {
+  color: red;
+}
+/* img {
+
+  position: fixed;
+  top: 100px;
+  left: 100px;
+
+} */
+
+.inputField {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom-color: green;
+}

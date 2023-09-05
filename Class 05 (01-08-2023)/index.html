@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+  </head>
+  <body>
+    <!-- Chapter no: 07 (forms) -->
+
+    <fieldset>
+      <legend>Personal Details</legend>
+      <p>
+        Email
+
+        <input required type="email" name="username" size="25" maxlength="30" />
+      </p>
+      <p>
+        Password
+
+        <input type="password" size="25" />
+      </p>
+      <p>
+        Comment Section
+        <textarea name="comments" cols="60" rows="10"></textarea>
+      </p>
+      <br />
+      <br />
+      <p>
+        Select your gender
+
+        <input value="male" name="gender" type="radio" />male
+        <input value="female" name="gender" type="radio" />female
+        <input value="others" name="gender" type="radio" />others
+      </p>
+      <br />
+      <p>
+        Please select your favorite music service(s):
+        <input type="checkbox" name="service" value="itunes" />
+        iTunes <input type="checkbox" name="service" value="lastfm" /> Last.fm
+        <input type="checkbox" name="service" value="spotify" /> Spotify
+      </p>
+
+      <p>
+        Select your coures
+        <select name="courses">
+          <option value="Web & mobile app development">
+            Web & mobile app development
+          </option>
+          <option value="Graphic designing">Graphic designing</option>
+          <option value="Video Editing">Video Editing</option>
+          <option value="Networking">Networking</option>
+          <option value="Machine learning">Machine learning</option>
+          <option disabled selected value="">Select any One</option>
+        </select>
+      </p>
+
+      <p>
+        Upload your CV
+        <br />
+        <input type="file" />
+      </p>
+
+      <a href="./result.html"
+        ><input
+          type="image"
+          src="https://e7.pngegg.com/pngimages/191/579/png-clipart-red-and-white-submit-button-submit-red-icons-logos-emojis-submit-thumbnail.png"
+          width="100"
+      /></a>
+    </fieldset>
+    <!-- <button>Submit</button> -->
+
+    <!-- <label for="username">UserName</label>
+      <input type="text" id="username" /> -->
+  </body>
+</html>
