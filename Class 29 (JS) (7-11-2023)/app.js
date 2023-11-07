@@ -106,6 +106,8 @@ function loginWithGoogle() {
     });
 }
 
+// *********************Github Auth**********************
+
 function loginWithGithub() {
   var provider = new firebase.auth.GithubAuthProvider();
 
