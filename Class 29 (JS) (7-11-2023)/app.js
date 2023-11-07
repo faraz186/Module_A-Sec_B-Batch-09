@@ -58,6 +58,8 @@ function login() {
     });
 }
 
+// *********************Forgot Password Auth**********************
+
 function forgotPassword() {
   var email = document.getElementById("email");
 
@@ -73,6 +75,8 @@ function forgotPassword() {
       console.log(errorMessage);
     });
 }
+
+// *********************Google Auth**********************
 
 function loginWithGoogle() {
   var provider = new firebase.auth.GoogleAuthProvider();
