@@ -11,7 +11,7 @@ var firebaseConfig = {
 // Initialize Firebase
 var app = firebase.initializeApp(firebaseConfig);
 
-// console.log(app.database);
+console.log(app.database);
 
 function getVal() {
   var name = document.getElementById("name");
