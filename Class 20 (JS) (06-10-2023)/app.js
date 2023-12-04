@@ -45,25 +45,25 @@ do {
  } while (i < 0); 
 
  
-// alert("abfjfsn")
+alert("abfjfsn")
 
-// function check(a) {
-//   console.log(a);
-//   a.style.backgroundColor = "red";
-//   a.style.color = "white";
-// }
+function check(a) {
+  console.log(a);
+  a.style.backgroundColor = "red";
+  a.style.color = "white";
+}
 
-// function login() {
-//   var name = document.getElementById("name");
-//   var email = document.getElementById("email");
+function login() {
+  var name = document.getElementById("name");
+  var email = document.getElementById("email");
 
-//   if (name.value && email.value) {
-//     console.log(name.value);
-//     console.log(email.value);
-//   } else {
-//     alert("first fill the entire field..");
-//   }
-// }
+  if (name.value && email.value) {
+    console.log(name.value);
+    console.log(email.value);
+  } else {
+    alert("first fill the entire field..");
+  }
+}
 
 function set() {
   var inp = document.getElementById("input");
