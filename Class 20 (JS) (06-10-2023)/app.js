@@ -38,13 +38,13 @@ while (i < 0) {
 }
 // *********************do-While loop****************************
 
-/*var i = 0;
+var i = 0;
 do {
   console.log(i);
   i++;
  } while (i < 0); 
 
- */
+ 
 // alert("abfjfsn")
 
 // function check(a) {
