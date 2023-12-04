@@ -1,17 +1,17 @@
-// alert("hello world");
+alert("hello world");
 
-// function popUp() {
-//   alert("hello world");
-// }
+function popUp() {
+  alert("hello world");
+}
 
-// popUp(); // function calling
+popUp(); // function calling
 
-// popUp();
-// popUp();
-// popUp();
-// popUp();
-// popUp();
-// popUp();
+popUp();
+popUp();
+popUp();
+popUp();
+popUp();
+popUp();
 
 // for (var i = 0; i <= 6; i++) {
 //   popUp();
